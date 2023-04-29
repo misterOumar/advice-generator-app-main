@@ -12,6 +12,6 @@ function randomAdvice() {
     });
 }
 
-randomAdvice();
-
 advice_generator.addEventListener("click", randomAdvice);
+
+randomAdvice();

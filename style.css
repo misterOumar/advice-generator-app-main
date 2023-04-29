@@ -52,7 +52,7 @@ main {
   margin-bottom: 1rem;
 }
 .advice {
-  color: white;
+  color: #cfe3ea;
 }
 .advice::before {
   content: "\275D";
