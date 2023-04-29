@@ -7,12 +7,11 @@ function randomAdvice() {
   fetch(api_link)
     .then((res) => res.json())
     .then((result) => {
-      console.log(result);
       advice_id.innerText = result.slip.id;
       advice_content.innerText = result.slip.advice;
     });
 }
 
-advice_generator.addEventListener("click", randomAdvice);
-
 randomAdvice();
+
+advice_generator.addEventListener("click", randomAdvice);
